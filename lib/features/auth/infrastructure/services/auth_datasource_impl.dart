@@ -3,7 +3,7 @@ import 'package:teslo_shop/config/config.dart';
 import 'package:teslo_shop/features/auth/domain/domain.dart';
 import 'package:teslo_shop/features/auth/infrastructure/infrastructure.dart';
 
-class AuthDataSourceImpl extends AuthDataSource {
+class AuthDataSourceImpl extends AuthRepository {
 
   final dio = Dio(
     BaseOptions(
