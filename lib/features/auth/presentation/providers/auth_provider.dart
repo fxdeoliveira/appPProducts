@@ -27,6 +27,7 @@ class AuthNotifier extends StateNotifier<AuthState> {
   AuthNotifier({
     required this.authRepository,
     required this.keyValueStorageService,
+    
   }): super( AuthState() ) {
     checkAuthStatus();
   }
